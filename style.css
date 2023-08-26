@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(234, 228, 218); */
+    /* border: 4px solid red; */
+}
+
+.body{
+    max-width: 1300px;
+    margin: 5px auto;
+    padding: 0 20px;
+    font-family: 'poppins',sans-serif;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.nav_wrapper{
+    margin-top: 30px;
+    /* border: 4px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}   
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+.nav_wrapper a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    color: gray;  
+
+}
+.main{
+    /* border: 4px solid red; */
+    margin-top: 50px;
+}
+.main_content{
+    display: grid;
+    grid-template-columns: 68% 32%;
+    gap: 20px;
+}
+.main_content > :first-child img{
+    height: 60%;
+    width: 98%;
+    object-fit: cover;
+    margin-bottom: 40px;
+
+}
+.main_content > :first-child h1{
+    font-size: 57px;
+    line-height: 60px;
+  
+}
+.left_side{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.button{
+    margin-top: 32px;
+    border: none;
+    padding: 10px 32px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+.right_side{
+    /* border: 4px solid red ; */
+    height: 90%;
+    background-color: rgb(2, 15, 38);
+    color: white;
+    padding: 30px 26px;
+}
+.main_content .right_side h1{
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    color: orange;
+    
+}
+.main_content .right_side .last__paragraph {
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+    
+}
+.main_content .right_side p{
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  
+}
+.footer{
+    /* border: 4px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer .footer_one{
+    display: flex;
+    gap: 30px;
+    -ms-flex-align: center;
+}
+.footer .footer_one img{
+    height: 160px;
+    width: 70%;
+}
+.footer .footer_one h1{
+   font-size: 25px;
+   color: gray;
+}
+.footer .footer_one p{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 30px;
+    color: gray;
+    
+ }
